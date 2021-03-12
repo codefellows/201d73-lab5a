@@ -9,7 +9,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-
+  return [a+b, `The sum of ${a} and ${b} is ${a+b}.`];
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -27,7 +27,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+  return [a*b, `The product of ${a} and ${b} is ${a*b}.`];
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -48,7 +48,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-
+   return [a+b+c, a*b*c, `${a} and ${b} and ${c} sum to ${a+b+c}.`, `The product of ${a} and ${b} and ${c} is ${a*b*c}.`];
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
